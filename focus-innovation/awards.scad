@@ -1,5 +1,5 @@
 // Which one would you like to see?
-part = "both"; // [top,base,both]
+part = "both"; // [top,base,all,connector,trophy]
 
 /* [Basic] */
 
@@ -12,6 +12,10 @@ placeSuperscript="st";
 placeTextSize=27;
 placeSuperscriptSize=8;
 trophyFileName="Penguin_t.stl";
+trophyScale=0.4;
+trophyXTranslation=5;
+trophyYTranslation=0;
+trophyZTranslation=33.5;
 
 /* [Advanced] */
 
@@ -34,11 +38,21 @@ $fn = 150;
 
 render();
 module render() {
-  if (part != "base") {
+  if (part == "trophy") {
+      trophyTop($fn=150);
+  }
+  if (part == "top") {
     topPiece($fn=70);
   }
-  if (part != "top") {
+  if (part == "base") {
     bottomPiece($fn=70);
+  }
+  if (part == "all") {
+      topPiece($fn=70);
+      bottomPiece($fn=70);
+  }
+  if (part == "connector") {
+    connector();
   }
 }
 
@@ -49,8 +63,10 @@ module bottomPiece() {
 }
 
 module topPiece() {
-  aboveConnector() trophyTop();
-  connector();
+  union() {
+    trophyTop();
+    connector();
+  }
 }
 
 function skew(point, scheme) = [
@@ -77,8 +93,14 @@ function project(point, focallen, factor) =
   _projectscale(point, _projectnofactor(point, focallen), factor);
 
 module trophyTop() {
-    scale(1)
-    rotate([0, 0, 90]) import(str("vendor/", trophyFileName), center = true);
+    aboveConnector() 
+        scale(trophyScale)
+        translate([
+            trophyXTranslation,
+            trophyYTranslation,
+            trophyZTranslation
+        ])
+        rotate([0, 0, 90]) import(str("vendor/", trophyFileName), center = true);
 }
 
 module connector() {
