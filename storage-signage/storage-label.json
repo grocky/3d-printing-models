@@ -1,0 +1,20 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "$fn": "100",
+            "baseDepth": "2",
+            "baseLength": "55",
+            "baseWidth": "130",
+            "jointClearance": "0.3",
+            "jointDepth": "2",
+            "labelLength": "98",
+            "labelWidth": "151",
+            "overhangGap": "3",
+            "overhangLength": "7",
+            "part": "plate",
+            "roundedCornerRadius": "3"
+        }
+    },
+    "parameterSets": "",
+    "fileFormatVersion": "1"
+}
