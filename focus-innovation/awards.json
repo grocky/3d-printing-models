@@ -1,0 +1,37 @@
+{
+    "parameterSets": {
+        "design default valuesq": {
+            "$fn": "150",
+            "baseHeight": "8",
+            "baseRadius": "42",
+            "connectorHeight": "20",
+            "part": "trophy",
+            "placeSuperscript": "st",
+            "placeSuperscriptSize": "8",
+            "placeText": "1",
+            "placeTextSize": "27",
+            "plaqueAngle": "20",
+            "plaqueHeight": "20",
+            "plaqueTextBottom": "Focus Innovation 2020",
+            "plaqueTextBottomSize": "3",
+            "plaqueTextTop": "Culture",
+            "plaqueTextTopSize": "5",
+            "plaqueThickness": "4",
+            "plaqueWidth": "42",
+            "platformAngle": "30",
+            "platformDonutRadius": "2",
+            "platformHeight": "6",
+            "platformRadius": "28",
+            "ringInnerRadius": "25",
+            "ringOuterRadius": "35",
+            "ringWidth": "11",
+            "trophyFileName": "death_star.stl",
+            "trophyScale": "1",
+            "trophyXTranslation": "0",
+            "trophyYTranslation": "0",
+            "trophyZTranslation": "0"
+        }
+    },
+    "parameterSets": "",
+    "fileFormatVersion": "1"
+}
