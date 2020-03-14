@@ -3,3 +3,4 @@
 *.fpp filter=lfs diff=lfs merge=lfs -text
 *.factory filter=lfs diff=lfs merge=lfs -text
 *.mx filter=lfs diff=lfs merge=lfs -text
+*.skp filter=lfs diff=lfs merge=lfs -text
