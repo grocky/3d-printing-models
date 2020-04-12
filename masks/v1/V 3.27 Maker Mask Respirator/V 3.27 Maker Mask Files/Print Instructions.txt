@@ -1,0 +1,43 @@
+Instructions:
+Keep Calm & Print On
+
+Bill of Materials:
+
+Print
+1 x Front Valves (All 4 Parts)
+2 x Side Valves	(All 3 Parts)
+2 x Filter (Spring is optional depending on filter thickness)
+1 x Respirator
+2 x Strap Attachments (1 of each, except 2 x top strap attachments)
+
+Other Supplies
+Super glue (preferably liquid)
+Hot glue (optional but adds a nice seal)
+Weather Stripping
+1/2in Elastic
+Filter Material (preferably HEPA or Active Carbon)
+Heat gun or propane torch or lighter
+
+Print Settings:
+
+Suggested Material is 	PLA
+Designed for a 			.4 nozzle
+Print Speed				3600 mm/min or faster
+
+Layer height: 			.3mm (except valve flap print at .1mm)
+Infill: 				N/A
+Supports: 				No
+
+Top Solid Layers: 		3
+Bottom Solid Layers: 	3
+Perimeter Shells: 		3
+
+Outline Direction: 		Outside-In
+
+External Thin Wall		Perimeter
+Internal Thin Wall		Allow Single Extrusion
+*avoid gapfill*
+
+
+
+~ Coming Soon faster over extrusion instructions
